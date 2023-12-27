@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+.text {
+    font-family: "Arial";
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+#subtitle{
+    font-family: "Arial";
+    font-style: italic;
+    opacity: 40%;
+}
+
+#gameTitle{
+    font-family: "Arial";
+    font-size: small;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+#gameScreen{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#gameButton{
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.buttons {
+  background-color: rgba(31, 31, 31, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #1b1b1b;
+  cursor: pointer;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;  
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#winMessageDiv{
+    font-family: arial;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+#gameMessageDiv{
+    font-family: arial;
+    color: rgb(255, 0, 0);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+#inputForm{
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#retryGame{
+    display: none;
+    padding-top: 20px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameInput::placeholder{
+    text-align: center;
+    opacity: 20%;
+}

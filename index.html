@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Jogo de Adivinhação</title>
+  </head>
+  <body>
+
+    <div id="title">
+      <h1 class="text">
+        Jogo de adivinhação!
+      </h1>
+    </div>    
+
+    <div id="subtitle">
+      Este é um jogo de adivinhação simples criado com Javascript, HTML e CSS!
+    </div>
+
+
+    <div id="gameButton">
+      <button id="startButton" class="buttons" role="button">Começar</button>
+    </div>
+
+    <div id="gameScreen">
+      <div id="gameTitle">
+        <p>
+          Um número de 1 a 10 foi gerado aleatoriamente e você terá 5 tentativas para adivinhá-lo!    
+        </p>
+        <div id="inputForm">
+          <input type="text" id="gameInput" placeholder="Digite aqui sua tentativa">
+          <button id="sendForm" class="buttons" style="padding: 5px 6px; color:rgb(116, 116, 116)">Enviar</button>
+        </div>     
+      </div>    
+  </div>
+
+  <div id="gameMessageDiv">
+  </div>
+  <div id="winMessageDiv">
+  </div>
+
+  <div id="retryGame">
+      <p class="text">
+        Deseja tentar novamente?
+        <br>
+      </p>
+      
+      <button id="retryGameButton" class="buttons">Reiniciar</button>
+
+  </div>
+
+  </body>
+  <script src="scripts/main.js"></script>
+</html>
